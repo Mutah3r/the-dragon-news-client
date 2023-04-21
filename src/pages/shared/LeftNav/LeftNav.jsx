@@ -12,7 +12,7 @@ const LeftNav = () => {
     }, []);
 
     return (
-        <div>
+        <div className='sticky-top'>
             <h4>All Categories</h4>
             <div className='ps-4'>
                 {
