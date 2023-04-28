@@ -20,12 +20,12 @@ const Register = () => {
             .then((userCredential) => {
                 // Signed in 
                 const createdUser = userCredential.user;
-                console.log(createdUser);
+                // console.log(createdUser);
             })
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-                console.log(errorCode, errorMessage);
+                // console.log(errorCode, errorMessage);
             });
 
     }

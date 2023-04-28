@@ -29,12 +29,12 @@ const AuthProvider = ({ children }) => {
                 setUser(loggedUser);
                 const uid = loggedUser.uid;
                 // ...
-                console.log('logged in user inside auth state observer: ', loggedUser);
+                // console.log('logged in user inside auth state observer: ', loggedUser);
             } else {
                 // User is signed out
                 // ...
                 setUser(null);
-                console.log('currently no user is logged in');
+                // console.log('currently no user is logged in');
             }
             setLoading(false);
         });

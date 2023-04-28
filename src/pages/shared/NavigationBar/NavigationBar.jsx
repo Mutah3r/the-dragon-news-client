@@ -11,10 +11,10 @@ const NavigationBar = () => {
         logOut()
             .then(() => {
                 // Sign-out successful.
-                console.log('Sign-out successful.');
+                // console.log('Sign-out successful.');
             }).catch((error) => {
                 // An error happened.
-                console.log('An error happened.');
+                // console.log('An error happened.');
             });
     }
     

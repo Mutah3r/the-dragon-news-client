@@ -17,19 +17,19 @@ const Login = () => {
         const email = form.email.value;
         const password = form.password.value;
 
-        console.log(email, password);
+        // console.log(email, password);
 
         signIn(email, password)
             .then((userCredential) => {
                 // Signed in 
                 const loggedUser = userCredential.user;
-                console.log(loggedUser);
+                // console.log(loggedUser);
                 navigate(from, { replace: true });
             })
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-                console.log(errorMessage);
+                // console.log(errorMessage);
             });
 
     }
